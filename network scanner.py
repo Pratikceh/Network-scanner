@@ -38,7 +38,7 @@ def print_result(result_list):
 		print client['ip'],"\t\t",client['mac']
 
 ip = get_ip()
-#get the ip address or whole ip range to ip variable
+#get the ip address or whole ip range to ip variables
 
 scan_result = scan(ip.ipadrr)
 #use the ipaddr instance argument to use as a input_ip to scan function
